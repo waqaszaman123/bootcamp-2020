@@ -31,4 +31,4 @@ jobs:
     - name: Installing surge
       run: npm isntall--global surge
     - name: deploy using surge
-      run: surge ./ moaning-opinion.surge.sh--token $ {{secrets.okay_jojo}}
+      run: surge ./ bast-surge.sh--token $ {{secrets.okay_jojo}}
